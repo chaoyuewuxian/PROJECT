@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A023A6A1E08DE9800FE2276 /* NetWorkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A023A691E08DE9800FE2276 /* NetWorkingManager.m */; };
+		4A023A6D1E08DEB900FE2276 /* UIImage+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A023A6C1E08DEB900FE2276 /* UIImage+Compression.m */; };
 		A89EC88D1E01863300175517 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A89EC88C1E01863300175517 /* main.m */; };
 		A89EC8901E01863300175517 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A89EC88F1E01863300175517 /* AppDelegate.m */; };
 		A89EC8931E01863300175517 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A89EC8921E01863300175517 /* ViewController.m */; };
@@ -38,6 +40,10 @@
 
 /* Begin PBXFileReference section */
 		039777039B5B3F3FB7F0BD25 /* libPods-PROJECT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PROJECT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A023A681E08DE9800FE2276 /* NetWorkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkingManager.h; sourceTree = "<group>"; };
+		4A023A691E08DE9800FE2276 /* NetWorkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkingManager.m; sourceTree = "<group>"; };
+		4A023A6B1E08DEB900FE2276 /* UIImage+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compression.h"; sourceTree = "<group>"; };
+		4A023A6C1E08DEB900FE2276 /* UIImage+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compression.m"; sourceTree = "<group>"; };
 		A89EC8881E01863300175517 /* PROJECT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PROJECT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89EC88C1E01863300175517 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A89EC88E1E01863300175517 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +91,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A023A671E08DE6B00FE2276 /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				4A023A681E08DE9800FE2276 /* NetWorkingManager.h */,
+				4A023A691E08DE9800FE2276 /* NetWorkingManager.m */,
+				4A023A6B1E08DEB900FE2276 /* UIImage+Compression.h */,
+				4A023A6C1E08DEB900FE2276 /* UIImage+Compression.m */,
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
 		A89EC87F1E01863200175517 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +132,7 @@
 				A89EC8911E01863300175517 /* ViewController.h */,
 				A89EC8921E01863300175517 /* ViewController.m */,
 				A89EC8941E01863300175517 /* Main.storyboard */,
+				4A023A671E08DE6B00FE2276 /* ThirdLib */,
 				A89EC89A1E01863300175517 /* Assets.xcassets */,
 				A89EC89C1E01863300175517 /* LaunchScreen.storyboard */,
 				A89EC89F1E01863300175517 /* Info.plist */,
@@ -352,6 +370,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A89EC8931E01863300175517 /* ViewController.m in Sources */,
+				4A023A6A1E08DE9800FE2276 /* NetWorkingManager.m in Sources */,
+				4A023A6D1E08DEB900FE2276 /* UIImage+Compression.m in Sources */,
 				A89EC8901E01863300175517 /* AppDelegate.m in Sources */,
 				A89EC88D1E01863300175517 /* main.m in Sources */,
 				A89EC8991E01863300175517 /* PROJECT.xcdatamodeld in Sources */,
