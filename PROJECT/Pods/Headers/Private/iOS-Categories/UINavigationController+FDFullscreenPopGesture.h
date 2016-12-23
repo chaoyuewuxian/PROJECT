@@ -1,1 +1,0 @@
-../../../iOS-Categories/Categories/UIKit/UINavigationController/UINavigationController+FDFullscreenPopGesture.h

@@ -1,1 +1,0 @@
-../../../iOS-Categories/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.h

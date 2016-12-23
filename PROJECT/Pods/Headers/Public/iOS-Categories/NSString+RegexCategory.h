@@ -1,1 +1,0 @@
-../../../iOS-Categories/Categories/Foundation/NSString/NSString+RegexCategory.h
