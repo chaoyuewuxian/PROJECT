@@ -1,3 +1,6 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'http://repo.baichuan-ios.taobao.com/baichuanSDK/AliBCSpecs.git'
+
 platform:ios,'7.1'
 target 'PROJECT' do
 pod 'AFNetworking', '~> 3.1.0'
@@ -11,4 +14,7 @@ pod 'MJRefresh', '~> 3.1.12'
 pod 'WebViewJavascriptBridge', '~> 5.0.7'
 pod 'iOS-Categories', '~> 1.0.2'
 pod 'YTKNetwork', '~> 2.0.3'
+pod 'BCUserTrack'
+pod 'ZipArchive', '~> 1.4.0'
+pod 'wax', :git => 'https://github.com/alibaba/wax.git'
 end
